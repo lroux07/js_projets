@@ -32,6 +32,8 @@ menu3.addEventListener('click', () => {
 // ------------------------------------ FORMULAIRE ----------------------------
 // ----------------------------------------------------------------------------
 
+// A FINIR
+
 const myText = document.querySelector('#myText');
 const mdp = document.querySelector('#mdp');
 const toChecked = document.querySelector('#toChecked');
