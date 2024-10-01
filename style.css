@@ -1,0 +1,23 @@
+.buttons {
+    display: inline-flex;
+    gap: 2px;
+}
+
+.navbar {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#menu1, #menu2, #menu3 {
+    background-color: violet;
+    padding: 1rem 5rem 5rem 5rem;
+}
+
+#menuContent {
+    background-color: purple;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 10rem;
+}

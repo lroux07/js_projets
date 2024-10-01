@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-container">
+        <div class="navbar">
+            <div class="buttons">
+                <div id="menu1" class="menu">Menu 1</div>
+                <div id="menu2" class="menu">Menu 2</div>
+                <div id="menu3" class="menu">Menu 3</div>
+            </div>
+            <div id="menuContent">
+                <p id="content">Contenu</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- ---------------------------------------------------------------------------- -->
+    <!-- ------------------------------------ FORMULAIRE ---------------------------- -->
+    <!-- ---------------------------------------------------------------------------- -->
+
+    <form action="/">
+        <label for="myText">Mon texte</label>
+        <input type="text" id="myText">
+        <br>
+
+
+        <label for="mdp">Mon password</label>
+        <input type="text" id="mdp">
+        <br>
+
+
+        <label for="toChecked">Bouton à checker</label>
+        <input type="checkbox" name="toChecked" id="toChecked">
+        <br>
+
+
+        <label for="choiceButton">Choisir un bouton</label>
+
+        <input type="radio" name="button" id="btn1">
+        <label for="btn1">Bouton1</label>
+
+        <input type="radio" name="button" id="btn2">
+        <label for="btn2">Bouton2</label>
+        
+        <input type="radio" name="button" id="btn3">
+        <label for="btn3">Bouton3</label>
+        <br>
+
+
+        <label for="choiceValue">Choisir une valeur</label>
+        <select multiple name="choiceValue" id="choiceValue">
+            <option value="1" id="first">Premier</option>
+            <option value="2" id="second">Deuxième</option>
+            <option value="3" id="third">Troisième</option>
+        </select>
+        <br>
+
+        <label for="comment">Un commentaire</label>
+        <textarea name="comment" id="comment"></textarea>
+        <br>
+
+        <button id="submit">alert_formulaire_simple</button>
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>
